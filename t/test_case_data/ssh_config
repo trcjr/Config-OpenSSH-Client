@@ -1,0 +1,6 @@
+Host *
+    ForwardX11 no
+
+Host host1 host2
+	Hostname %h.example.com
+	User root
